@@ -1,0 +1,28 @@
+.header{
+    background-color: black;
+    margin-bottom: 20px;
+    .logo{
+        color: white;
+        padding: 20px;
+    }
+    .links a{
+        padding: 20px;
+        color: white;
+        font-size: 25px;
+    }
+}
+.card{
+    display: flex;
+}
+.fa-heart{
+    color: red;
+}
+.card-body{
+    background-color: black;
+}
+.card-body h4{
+    color: white;
+}
+.card-text{
+    color: white
+}
