@@ -10,7 +10,7 @@ let password=document.querySelector("#password")
 
 loginForm.addEventListener("submit",(e)=>{
     e.preventDefault()
-    GetAllPhones(`${BaseURL}/phones`)
+    GetAllPhones(`${BaseURL}/users`)
     .then((res)=>{
         let users=res.phones
         let findedUser= users.find(user=> user.email==email.value && user.password==password.value)
